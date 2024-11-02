@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Multiplication using Functions</title>
+</head>
+
+<body>
+
+    <h2>Multiplication using Functions</h2>
+    
+    <button onclick="myfunction(12)">Guess the question for this answer</button>
+
+    <p>12 x y = ?</p>
+    <script>
+        function myfunction(x, y) {
+            if (y === undefined) {
+                y = 24;
+            }
+            document.write(x * y);
+        }
+    </script>
+</body>
+
+</html>
