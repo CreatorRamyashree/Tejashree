@@ -1,0 +1,5 @@
+print("Print Statements in python.")
+print(63)
+print("Hello Tejashree")
+print("Welcome", 9)
+print("Welcome to", end= "*")
